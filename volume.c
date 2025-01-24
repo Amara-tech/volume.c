@@ -8,7 +8,7 @@
 const int HEADER_SIZE = 44;
 // Signed and Unsigned bits
 typedef uint8_t byte;
-typedef uint16_t byte2;
+typedef int16_t byte2;
 int main(int argc, char *argv[])
 {
     // Check command-line arguments
